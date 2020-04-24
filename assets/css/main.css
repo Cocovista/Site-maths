@@ -2704,3 +2704,165 @@ input, select, textarea {
 				}
 
 	}
+
+
+/* Very Small */
+	
+	@media screen and (max-width: 496px) {
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 11pt;
+			}
+
+			h2, h3, h4, h5, h6 {
+				font-size: 1.2em;
+				letter-spacing: 2px;
+				text-align: center;
+				margin: 0 0 1em 0;
+			}
+
+				h2 br, h3 br, h4 br, h5 br, h6 br {
+					display: none;
+				}
+
+		/* Image */
+
+			.image.featured {
+				margin: 0 0 1.5em 0;
+			}
+
+			.image.left {
+				max-width: 35%;
+			}
+
+			.image.right {
+				max-width: 35%;
+			}
+
+		/* Button */
+
+			input[type="button"],
+			input[type="submit"],
+			input[type="reset"],
+			button,
+			.button {
+				letter-spacing: 2px;
+				display: block;
+				padding: 1em 0 1em 0;
+				width: 100%;
+			}
+
+		/* Actions */
+
+			ul.actions li {
+				display: block;
+				margin: 1em 0 0 0;
+			}
+
+				ul.actions li:first-child {
+					margin-top: 0;
+				}
+
+		/* Box */
+
+			.box.excerpt header {
+				text-align: center;
+			}
+
+		/* Header */
+
+			#header > .container {
+				padding: 6em 0 4em 0;
+			}
+
+			#header h1 {
+				font-size: 1em;
+				letter-spacing: 8px;
+				line-height: 1.325em;
+			}
+
+			#header p {
+				margin: 1.25em 0 0 0;
+				letter-spacing: 2px;
+			}
+
+		/* Banner */
+
+			#banner {
+				padding: 5em 0;
+			}
+
+				#banner > .container {
+					padding: 0;
+				}
+
+					#banner > .container:before, #banner > .container:after {
+						display: none;
+					}
+
+				#banner p {
+					font-size: 1.25em;
+				}
+
+		/* Features */
+
+			#features {
+				padding: 2em 0;
+			}
+
+				#features ul.actions {
+					margin-top: 0;
+				}
+
+		/* Main */
+
+			#main {
+				padding: 2em 0;
+			}
+
+		/* Content */
+
+			#content > section,
+			#content > article {
+				margin: 3em 0 0 0;
+				padding: 3em 0 0 0;
+			}
+
+		/* Sidebar */
+
+			#sidebar {
+				padding-top: 3em;
+			}
+
+				#sidebar > section,
+				#sidebar > article {
+					margin: 3em 0 0 0;
+					padding: 3em 0 0 0;
+				}
+
+		/* Footer */
+
+			#footer {
+				padding: 2em 0;
+			}
+
+				#footer ul.icons {
+					margin-bottom: 0;
+				}
+
+		/* Copyright */
+
+			#copyright .links {
+				margin-bottom: 0;
+			}
+
+				#copyright .links li {
+					display: block;
+					padding-left: 0;
+					margin-left: 0;
+					border-left: 0;
+				}
+
+	}
