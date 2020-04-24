@@ -1918,9 +1918,9 @@ input, select, textarea {
 		#header h1 {
 			font-family: 'Arvo';
 			font-weight: 700;
-			color: #ed786a;
+			color: #a52a2a ;
 			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
-			font-size: 3em;
+			font-size: 2.5em;
 			letter-spacing: 13px;
 		}
 
@@ -2616,7 +2616,7 @@ input, select, textarea {
 			}
 
 			#header h1 {
-				font-size: 2em;
+				font-size: 1.5em;
 				letter-spacing: 8px;
 				line-height: 1.325em;
 			}
