@@ -20,7 +20,6 @@ function rechercheclasse() {
 
 /** Je trouve ma classe 
 **/
-document.getElementById("rechercheclasse").addEventListener("click", jetrouvemaclasse);
 document.getElementById("jetrouvemaclasse").addEventListener("click", jetrouvemaclasse);
 
 function jetrouvemaclasse() {

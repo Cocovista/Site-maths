@@ -2724,9 +2724,7 @@ input, select, textarea {
 	@media screen and (max-width: 496px) {
 
 		/* Basic */
-			#jetrouvemaclasse{
-				display: none!important;
-			}
+			
 			body, input, textarea, select {
 				font-size: 11pt;
 			}
