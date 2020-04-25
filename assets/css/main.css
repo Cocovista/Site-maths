@@ -74,6 +74,18 @@ input, select, textarea {
 
 /* Basic */
 
+	#IDdubouton{
+	position : fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    /* Bidouille pour IE */
+    position: expression("absolute");
+    width : expression("100%");
+    top: expression(document.body.scrollTop + this.offsetHeight - this.offsetHeight);
+    left: expression("0px");
+	}
 	html {
 		box-sizing: border-box;
 	}
@@ -2712,7 +2724,9 @@ input, select, textarea {
 	@media screen and (max-width: 496px) {
 
 		/* Basic */
-
+			#jetrouvemaclasse{
+				display: none!important;
+			}
 			body, input, textarea, select {
 				font-size: 11pt;
 			}
