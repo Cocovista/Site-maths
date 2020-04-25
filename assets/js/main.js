@@ -5,6 +5,26 @@
 */
 
 
+		/** 
+		* Cliquer sur "Je trouve ma classe" et surbrillance sur les menus collège et lycée
+		
+		
+document.getElementById("rechercheclasse").addEventListener("click", rechercheclasse);
+
+function rechercheclasse() {
+  document.getElementById("nav").style.backgroundColor = "#a52a2a";
+
+}**/
+
+/** Je trouve ma classe 
+**/
+document.getElementById("rechercheclasse").addEventListener("click", jetrouvemaclasse);
+document.getElementById("jetrouvemaclasse").addEventListener("click", jetrouvemaclasse);
+
+function jetrouvemaclasse() {
+  document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
+}
+
 
 
     $(function() {
