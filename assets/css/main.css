@@ -2123,14 +2123,14 @@ input, select, textarea {
 		text-transform: uppercase;
 		background: url("../../images/banner.jpg");
 		background-size: cover;
-		padding: 10em 0;
+		padding: 3em 0;
 	}
 
 		#banner p {
-			font-weight: 400;
-			font-size: 2em;
-			line-height: 1.5em;
-			letter-spacing: 4px;
+			font-weight: 600;
+			font-size: 1em;
+			line-height: 1em;
+			letter-spacing: 3px;
 			text-align: center;
 			margin: 0;
 		}
@@ -2312,7 +2312,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 8em 0;
+				padding: 2em 0;
 			}
 
 				#banner > .container {
@@ -2344,7 +2344,7 @@ input, select, textarea {
 
 	}
 
-/* Medium */
+/* Medium - Changement de style à partir de cette taille là */
 
 	#navPanel, #titleBar {
 		display: none;
@@ -2353,6 +2353,9 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+			#jetrouvemaclasse {
+				display:none;
+			}
 
 			html, body {
 				overflow-x: hidden;
@@ -2432,7 +2435,7 @@ input, select, textarea {
 						display: block;
 						width: 60px;
 						height: 40px;
-						background: rgba(232, 232, 232, 0.9);
+						background: #a52a2a;
 						border-radius: 4px;
 						position: absolute;
 						left: 5px;
@@ -2441,7 +2444,7 @@ input, select, textarea {
 						text-align: center;
 						line-height: 40px;
 						font-size: 18px;
-						color: #aaa;
+						color: white;
 					}
 
 					#titleBar .toggle:active:before {
@@ -2469,11 +2472,11 @@ input, select, textarea {
 				top: 0;
 				width: 275px;
 				z-index: 10002;
-				background: #444;
+				background: #a52a2a;
 				border-right: solid 2px #3c3c3c;
-				font-weight: 400;
+				font-weight: 600;
 				text-transform: uppercase;
-				color: #888;
+				color: white;
 				letter-spacing: 2px;
 				font-size: 0.85em;
 			}
@@ -2562,6 +2565,9 @@ input, select, textarea {
 
 
 		/* Basic */
+			#jetrouvemaclasse {
+				display:none;
+			}
 
 			body, input, textarea, select {
 				font-size: 11pt;
@@ -2724,7 +2730,9 @@ input, select, textarea {
 	@media screen and (max-width: 496px) {
 
 		/* Basic */
-			
+			#jetrouvemaclasse {
+				display:none;
+			}
 			body, input, textarea, select {
 				font-size: 11pt;
 			}

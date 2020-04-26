@@ -230,5 +230,5 @@ $(document).ready(function(){
   $("#IDdubouton").scrollToTop({
     speed:200,
     ease:"easeOutQuint",
-    start:250});
+    start:150});
 });

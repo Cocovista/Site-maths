@@ -17,6 +17,7 @@
 
 			<!-- Header -->
 				<section id="header">
+					<div id="jetrouvemaclasse" class="button icon solid fa-caret-down">Je trouve ma classe </div>
 					<div class="container">
 
 						<!-- Logo -->
@@ -46,7 +47,6 @@
 									<li><a class="icon solid fa-laptop-code" href="informatique"><span>Informatique</span></a></li>
 									<li><a class="icon solid fa-film" href="videos"><span>Vidéos</span></a></li>
 								</ul>
-								<a href="#" id="jetrouvemaclasse" class="button icon solid fa-caret-up">Je trouve ma classe </a>
 							</nav>
 						
 					</div>
@@ -98,7 +98,7 @@
 							</div>
 							<div class="col-12">
 								<ul class="actions">
-									<li><a href="#main" class="button icon solid fa-angle-double-down"> Un peu de lecture </a></li>
+									<li><a href="#content" class="button icon solid fa-angle-double-down"> Un peu de lecture </a></li>
 								</ul>
 							</div>
 						</div>
@@ -184,22 +184,27 @@
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<section>
-									<form method="post" action="#">
+									<form name="contact" method="post" data-netlify="true" >
 										<div class="row gtr-50">
 											<div class="col-6 col-12-small">
-												<input name="name" placeholder="Nom et Prénom" type="text" />
+												<input name="Nom et Prénom" placeholder="Nom et Prénom" type="text" />
 											</div>
 											<div class="col-6 col-12-small">
-												<input name="email" placeholder="Email" type="text" />
+												<input name="Email" placeholder="Email" type="email" />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message"></textarea>
+												<textarea name="Message" placeholder="Message"></textarea>
 											</div>
 											<div class="col-12">
-												<a href="#" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
+												<input type="file" name="myfile" id="myfile" placeholder="Upload File"/>
+											</div>
+											<div data-netlify-recaptcha="true"></div>
+											<div class="col-12">
+												<button type="submit" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
 											</div>
 										</div>
 									</form>
+									
 								</section>
 							</div>
 							<div class="col-6 col-12-medium">
@@ -209,15 +214,15 @@
 										<div class="col-6 col-12-small">
 											<ul class="icons">
 												<li class="icon solid fa-home">
-													Adresse à remplir<br />
-													07 500 GUILHERAND-GRANGES<br />
+													Adresse de l'établissement à remplir<br />
+													Code Postal + Ville<br />
 													FRANCE
 												</li>
 												<li class="icon solid fa-phone">
-													Numéro de téléphone
+													Numéro de l'établissement
 												</li>
 												<li class="icon solid fa-envelope">
-													<a href="#">adresse mail à remplir</a>
+													<a href="#">couston.maths[at]gmail.com</a>
 												</li>
 											</ul>
 										</div>
