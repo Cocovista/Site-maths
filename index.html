@@ -186,6 +186,7 @@
 								<section>
 									<form name="contact" method="post" data-netlify="true" >
 										<div class="row gtr-50">
+												
 											<div class="col-6 col-12-small">
 												<label for="Pseudo">Pseudo</label>
 												<input name="Pseudo" placeholder="Lapin##" type="text" />
@@ -201,7 +202,11 @@
 												<input type="file" name="myfile" id="myfile" placeholder="Upload File"/>
 											</div>
 											<div data-netlify-recaptcha="true"></div>
-											<div class="col-12">
+											<div class="col-6 col-12-small">
+												<label for="captcha">Je suis magnifique</label>
+												<input id="captcha"  name="validation" value="captcha" type="radio"/>												
+												</div>
+											<div class="col-6 col-12-small">
 												<button type="submit" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
 											</div>
 										</div>
