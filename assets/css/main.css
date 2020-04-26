@@ -1666,8 +1666,7 @@ input, select, textarea {
 
 /* Form */
 	#antibot {
-		font-size: 0.5em;
-		display: hidden;
+		opacity: 0;
 	}
 	form label {
 		font-weight: 600;
