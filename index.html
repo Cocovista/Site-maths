@@ -184,9 +184,8 @@
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<section>
-									<form name="contact" method="post" data-netlify="true" >
+									<form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" >
 										<div class="row gtr-50">
-												
 											<div class="col-6 col-12-small">
 												<label for="Pseudo">Pseudo</label>
 												<input name="Pseudo" placeholder="Lapin##" type="text" />
@@ -200,18 +199,15 @@
 											</div>
 											<div class="col-12">
 												<input type="file" name="myfile" id="myfile" placeholder="Upload File"/>
-											</div>
-											<div data-netlify-recaptcha="true"></div>
-											<div class="col-6 col-12-small">
-												<label for="captcha">Je suis magnifique</label>
-												<input id="captcha"  name="validation" value="captcha" type="radio"/>												
-												</div>
-											<div class="col-6 col-12-small">
+											</div>											
+											<div class="col-12">
+											<p id="antibot">
+												<input name="bot-field" placeholder="Ne rien écrire ici" /></label>
+												</p>
 												<button type="submit" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
 											</div>
 										</div>
 									</form>
-									
 								</section>
 							</div>
 							<div class="col-6 col-12-medium">
@@ -271,6 +267,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript" src="assets/js/hautpage-seomix.js"></script>
-
+			
 	</body>
 </html>

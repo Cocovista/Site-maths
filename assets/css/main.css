@@ -1665,7 +1665,10 @@ input, select, textarea {
 				}
 
 /* Form */
-
+	#antibot {
+		font-size: 0.5em;
+		display: hidden;
+	}
 	form label {
 		font-weight: 600;
 		text-transform: uppercase;
