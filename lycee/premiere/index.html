@@ -276,24 +276,32 @@
 				<section id="footer">
 					<div class="container">
 						<header>
-							<h2>Question ou commentaire ? </h2>
+							<h2>Une question, un devoir à me rendre ? </h2>
 						</header>
 						<div class="row">
 							<div class="col-6 col-12-medium">
 								<section>
-									<form method="post" action="#">
+									<form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" >
 										<div class="row gtr-50">
 											<div class="col-6 col-12-small">
-												<input name="name" placeholder="Name" type="text" />
+												<label for="Pseudo">Pseudo</label>
+												<input name="Pseudo" placeholder="Lapin##" type="text" />
 											</div>
 											<div class="col-6 col-12-small">
-												<input name="email" placeholder="Email" type="text" />
+												<label for="Email">Email</label>
+												<input name="Email" placeholder="Pour une réponse" type="email" />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message"></textarea>
+												<textarea name="Message" placeholder="Message"></textarea>
 											</div>
 											<div class="col-12">
-												<a href="#" class="form-button-submit button icon solid fa-envelope">Send Message</a>
+												<input type="file" name="myfile" id="myfile" placeholder="Upload File"/>
+											</div>											
+											<div class="col-12">
+											<p id="antibot">
+												<input name="bot-field" placeholder="Ne rien écrire ici" /></label>
+												</p>
+												<button type="submit" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
 											</div>
 										</div>
 									</form>
@@ -306,15 +314,15 @@
 										<div class="col-6 col-12-small">
 											<ul class="icons">
 												<li class="icon solid fa-home">
-													Adresse à remplir<br />
-													07 500 GUILHERAND-GRANGES<br />
+													Adresse de l'établissement à remplir<br />
+													Code Postal + Ville<br />
 													FRANCE
 												</li>
 												<li class="icon solid fa-phone">
-													Numéro de téléphone
+													Numéro de l'établissement
 												</li>
 												<li class="icon solid fa-envelope">
-													<a href="#">adresse mail à remplir</a>
+													<a href="#">couston.maths[at]gmail.com</a>
 												</li>
 											</ul>
 										</div>
@@ -334,6 +342,7 @@
 									</div>
 								</section>
 							</div>
+							
 						</div>
 					</div>
 					<div id="copyright" class="container">
