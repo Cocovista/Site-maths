@@ -2358,7 +2358,9 @@ input, select, textarea {
 			#jetrouvemaclasse {
 				display:none;
 			}
-
+			#jetrouvemaclassecollege {
+				display:none;
+			}
 			html, body {
 				overflow-x: hidden;
 			}
@@ -2570,6 +2572,9 @@ input, select, textarea {
 			#jetrouvemaclasse {
 				display:none;
 			}
+			#jetrouvemaclassecollege {
+				display:none;
+			}
 
 			body, input, textarea, select {
 				font-size: 11pt;
@@ -2735,6 +2740,10 @@ input, select, textarea {
 			#jetrouvemaclasse {
 				display:none;
 			}
+			#jetrouvemaclassecollege {
+				display:none;
+			}
+			
 			body, input, textarea, select {
 				font-size: 11pt;
 			}
