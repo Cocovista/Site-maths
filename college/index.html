@@ -17,7 +17,16 @@
 
 			<!-- Header -->
 				<section id="header">
-					<div id="jetrouvemaclasse2" class="button icon solid fa-caret-down">Je trouve ma classe</div>
+				
+					<div id="jetrouvemaclasse2" class="button icon solid fa-caret-down">Je trouve ma classe
+					</div>
+					<script>
+						document.getElementById("jetrouvemaclasse2").onclick = function() {myFunction()};
+
+						function myFunction() {
+						document.getElementById("jetrouvemaclasse2").innerHTML = "Clique sur l'image de ta classe !";
+								}
+				</script>
 					<div class="container">
 
 						<!-- Logo -->
@@ -54,6 +63,7 @@
 
 			<!-- Features -->
 				<section id="features">
+				
 					<div class="container">
 						<header>
 							<h2><strong>Les classes</strong></h2>

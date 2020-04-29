@@ -7,7 +7,13 @@
 /** Formulaire 
 **/
 
+/** Je trouve ma classe index général
+**/
+document.getElementById("jetrouvemaclasse").onclick = function() {jetrouvemaclasse()};
 
+function jetrouvemaclasse() {
+  document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
+};
 
 
 
@@ -89,17 +95,4 @@ $(function() {
 
 })(jQuery);
 
-/** Je trouve ma classe 
-**/
-document.getElementById("jetrouvemaclasse").onclick = function() {jetrouvemaclasse()};
-
-function jetrouvemaclasse() {
-  document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
-};
-
-document.getElementById("jetrouvemaclasse2").onclick = function() {jetrouvemaclasse2()};
-
-function jetrouvemaclasse2() {
-  document.getElementById("jetrouvemaclasse2").innerHTML = "Clique sur l'image de ta classe";
-};
 
