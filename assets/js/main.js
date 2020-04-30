@@ -86,14 +86,5 @@ $(function() {
 })(jQuery);
 
 
-/** Je trouve ma classe index général
-**/
-document.getElementById("jetrouvemaclasse").onclick = function() {jetrouvemaclasse()};
-
-function jetrouvemaclasse() {
-  document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
-};
-
-
 
 
