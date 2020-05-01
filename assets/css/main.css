@@ -1951,6 +1951,15 @@ input, select, textarea {
 			letter-spacing: 3px;
 			text-align: center;
 		}
+		
+		#header h2 {
+			font-family: 'Arvo';
+			font-weight: 700;
+			color: #a52a2a ;
+			text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+			font-size: 1.5em;
+			letter-spacing: 8px;
+		}
 
 /* Nav */
 
