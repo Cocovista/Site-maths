@@ -6,45 +6,53 @@
 -->
 <html>
 	<head>
-		<title>Chapitre 4 : Théorème de Pythagore (Partie 2)</title>
+		<title>Mathématiques</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../../../assets/css/main.css" />
-		<link rel="icon" href="../../../images/ico1.ico" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/ico1.ico" />
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<section id="header">
+					<div id="jetrouvemaclasse" class="button icon solid fa-caret-down">Je trouve ma classe </div>
+					<script>
+					document.getElementById("jetrouvemaclasse").onclick = function() {jetrouvemaclasse()};
+
+					function jetrouvemaclasse() {
+					document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
+					};
+					</script>
 					<div class="container">
 
 						<!-- Logo -->
-							<h1 id="logo">Chapitre 4</h1>
-							<h2>Théorème de Pythagore (Partie 2)</h2>
+							<h1 id="logo">Mathématiques</h1>
+							<p>Site dédié aux élèves de M.COUSTON</p>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a class="icon solid fa-home" href="../../../"><span>Accueil</span></a></li>
+									<li><a class="icon solid fa-home" href="#"><span>Accueil</span></a></li>
 									<li>
-										 <a href="../../" class="icon solid fa-angle-up"><span>Collège</span></a>
+										 <a href="college" class="icon solid fa-angle-up"><span>Collège</span></a>
 										<ul class="test">
-											<li><!--a href="../../sixieme"-->Sixième (à venir)</a></li>
-											<li><a href="../../cinquieme">Cinquième</a></li>
-											<li><a href="../">Quatrième</a></li>
-											<li><!--a href="../../troisieme"-->Troisième (à venir)</a></li>
+											<li><!--a href="college/sixieme"-->Sixième (à venir)</a></li>
+											<li><a href="college/cinquieme">Cinquième</a></li>
+											<li><a href="college/quatrieme">Quatrième</a></li>
+											<li><!--a href="college/troisieme"-->Troisième (à venir)</a></li>
 										</ul>
 									</li>
 									<li><a class="icon solid fa-angle-double-up" href="#"><span>Lycée</span></a>
 										<ul>
-											<li><!--a href="../../../lycee/seconde"-->Seconde (à venir)</a></li>
-											<li><!--a href="../../../lycee/premiere"-->Première (à venir)</a></li>				
-											<li><!--a href="../../../lycee/terminale"-->Terminale (à venir)</a></li>
+											<li><!--a href="lycee/seconde"-->Seconde (à venir)</a></li>
+											<li><!--a href="lycee/premiere"-->Première (à venir)</a></li>				
+											<li><!--a href="lycee/terminale"-->Terminale (à venir)</a></li>
 										</ul>
 									</li>
-									<li><a class="icon solid fa-laptop-code" href="../../../informatique"><span>Informatique</span></a></li>
-									<li><a class="icon solid fa-film" href="../../../videos"><span>Vidéos</span></a></li>
+									<li><a class="icon solid fa-laptop-code" href="informatique"><span>Informatique</span></a></li>
+									<li><a class="icon solid fa-film" href="videos"><span>Vidéos</span></a></li>
 								</ul>
 							</nav>
 						
@@ -62,11 +70,11 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="https://acgrenoblefr-my.sharepoint.com/:b:/g/personal/florian_couston_ac-grenoble_fr/EWDUJJkwv-1NrWIRrnCD3LkBzh5XsuStooRjV-h6BD0YWQ?e=jMw8IJ" target="_blank" class="image featured"><img src="../../../images/lecon.jpg" alt="" />
+										<a href="#features" class="image featured"><img src="images/cahierstylo.jpg" alt="" />
 										<header>
-											<h3>La leçon</h3>
+											<h3>Retrouve ce que tu as étudié en classe !</h3>
 										</header>
-										Retrouve la leçon visionnable depuis le site ou aussi en téléchargement.</a>
+										Télécharge tous les documents que tu as utilisés en classe en format imprimable.</a>
 									</section>
 
 							</div>
@@ -74,11 +82,11 @@
 
 								<!-- Feature -->
 								<section>
-										<a href="exercices" class="image featured"><img src="../../../images/exercice.jpg" alt="" />
+										<a href="#features" class="image featured"><img src="images/exercicesligne.jpg" alt="" />
 										<header>
-											<h3>Les exercices</h3>
+											<h3>Entraine-toi grâce à des exercices interactifs !</h3>
 										</header>
-										Retrouve les exercices faits en classe ainsi que des exercices complémentaires et intéractifs.</a>
+										De nombreux exercices en ligne sont à disposition pour s'entrainer tout en s'amusant.</a>
 									</section>
 									
 
@@ -87,17 +95,17 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="videos" class="image featured"><img src="../../../images/videohomer.jpg" alt="" />
+										<a href="#features" class="image featured"><img src="images/youtube.jpg" alt="" />
 										<header>
-											<h3>Les Vidéos</h3>
+											<h3>Quelque chose que tu n'as pas compris ?</h3>
 										</header>
-										De nombreuses vidéos d'explications t'aident à mieux comprendre.</a>
+										De nombreuses vidéos d'explications te permettront de comprendre plus facilement.</a>
 									</section>
 
 							</div>
 							<div class="col-12">
 								<ul class="actions">
-									<li><a href="#footer" class="button icon solid fa-angle-double-down"> Me contacter </a></li>
+									<li><a href="#content" class="button icon solid fa-angle-double-down"> Un peu de lecture </a></li>
 								</ul>
 							</div>
 						</div>
@@ -110,6 +118,73 @@
 						<p><em>En Mathématiques, on ne comprend pas les choses, on s'y habitue.</em></p>
 					</div>
 				</section>
+
+			<!-- Main (retiré et stocké dans fichier main)-->
+			<section id="main">
+					<div class="container">
+						<div class="row">
+
+							<!-- Content -->
+								<div id="content" class="col-8 col-12-medium">
+
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2><a href="#">C'est la rentrée !</a></h2>
+											</header>
+											<a href="#" class="image featured"><img src="images/rentree.jpg" alt="" /></a>
+											<h3>Belle rentrée 2020 à tous !</h3>
+											<p>Nous avons connu une année 2019/2020 très particulière et mouvementée... 
+											<br> Pour cette rentrée 2020, le protocole sanitaire est simplifié. 
+											<br> Vous trouverez ci-dessous un résumé du protocole à appliquer au collège. 
+											<br> Choisissez bien votre collège.
+											</p>
+											<ul class="actions">
+												<li><a href="Protocole_Saint_Do.jpg" target="_blank" class="button icon solid fa-angle-double-right"> Protocole pour le collège de Saint-Donat </a></li>
+											</ul>
+											<ul class="actions">
+											<li><a href="Protocole_Saint_So.pdf" target="_blank" class="button icon solid fa-angle-double-right"> Protocole pour le collège Denis Brunet </a></li>
+											</ul>
+										</article>
+								</div>
+
+							<!-- Sidebar -->
+								<div id="sidebar" class="col-4 col-12-medium">
+
+									
+									<!-- Highlights -->
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Highlight -->
+														<article class="box excerpt">
+															<header>
+															<h3 class="date">Qui suis-je ?</h3>
+															</header>
+														
+															<p>Je suis Florian COUSTON, professeur certifié de Mathématiques, j'ai depuis tout petit toujours su que je voulais être professeur.
+															<br>Les mathématiques m'ont façonné jusque dans ma personnalité. Ma vie au quotidien n'est que pragmatisme et recherche de solutions à des petits problèmes.
+															<br>Je ne baisse jamais les bras face à un obstacle et ne suis satisfait que lorsqu'il est surmonté.
+															<br>J'invite toutes les personnes qui se demandent à quoi servent les maths au quotidien à en discuter avec moi.
+															<br>Je suis certain que cet avis peut changer très vite ! </p>
+															<ul class="actions">
+																<li><a href="#footer" class="button icon solid fa-angle-double-down">Me contacter</a></li>
+															</ul>
+														</article>
+
+												</li>
+												
+											</ul>
+										</section>
+
+								</div>
+
+						</div>
+					</div>
+				</section>
+				
+
 				
 			<!-- Footer -->
 				<section id="footer">
@@ -194,18 +269,17 @@
 					</div>
 				</section>
 
-		</div>
-
+<button type="button" id="IDdubouton" title="Haut de page"class="button icon solid fa-caret-up">Je trouve ma classe</button>
 
 		<!-- Scripts -->
-			<!-- script src="../../assets/js/jquery.min.js"></script -->
+			<!-- script src="assets/js/jquery.min.js"></script -->
 			<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-			<script src="../../../assets/js/jquery.dropotron.min.js"></script>
-			<script src="../../../assets/js/browser.min.js"></script>
-			<script src="../../../assets/js/breakpoints.min.js"></script>
-			<script src="../../../assets/js/util.js"></script>
-			<script src="../../../assets/js/main.js"></script>
-			<script type="text/javascript" src="../../../assets/js/hautpage-seomix.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" src="assets/js/hautpage-seomix.js"></script>
 			
 	</body>
 </html>
