@@ -27,6 +27,7 @@
 				document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
 			};
 		</script>
+
 		<div class="container">
 
 			<!-- Logo -->
@@ -34,16 +35,18 @@
 			<p>Site dédié aux élèves de M.COUSTON</p>
 
 
+
+
+
+
+
+
+
 			<div v-if="isLoggedIn">
 
+				<div class="row aln-center">
 
-
-
-
-
-			<div class="row aln-center">
-
-			<div class="col-4 col-6-medium col-12-small">
+					<div class="col-4 col-6-medium col-12-small">
 
 				<!-- Feature -->
 				<section>
@@ -54,9 +57,9 @@
 					</a>
 				</section>
 
-			</div>
+					</div>
 
-			<div class="col-4 col-6-medium col-12-small">
+					<div class="col-4 col-6-medium col-12-small">
 
 				<!-- Feature -->
 				<section>
@@ -67,7 +70,7 @@
 					</a>
 				</section>
 
-			</div>
+					</div>
 
 				<div class="col-4 col-6-medium col-12-small">
 				<section>
@@ -84,6 +87,7 @@
 
 			</div>
 
+			</div>
 
 			<!-- Nav -->
 			<nav id="nav">
@@ -115,6 +119,7 @@
 
 	<!-- Features -->
 	<section id="features">
+		<div v-if="isLoggedIn">
 		<div class="container">
 
 
@@ -189,8 +194,7 @@
 			</div>
 		</div>
 
-</div>
-
+	</div>
 <div v-else>
 	Accès interdit!
 </div>
