@@ -36,13 +36,18 @@
 
 
 
-
-
-
-
-
-
 			<div v-if="isLoggedIn">
+				test
+			</div>
+			<div v-else>
+				accès interdit
+			</div>
+
+
+
+
+
+
 
 				<div class="row aln-center">
 
@@ -87,7 +92,7 @@
 
 			</div>
 
-			</div>
+
 
 			<!-- Nav -->
 			<nav id="nav">
@@ -119,7 +124,7 @@
 
 	<!-- Features -->
 	<section id="features">
-		<div v-if="isLoggedIn">
+
 		<div class="container">
 
 
@@ -194,10 +199,8 @@
 			</div>
 		</div>
 
-	</div>
-<div v-else>
-	Accès interdit!
-</div>
+
+
 	</section>
 
 	<!-- Banner -->
@@ -229,18 +232,7 @@
 	<!-- Scripts -->
 	<!-- script src="../assets/js/jquery.min.js"></script -->
 
-<script>
-	export default{
-		name: 'App',
-		data(){
-			return{
-				tasks:[]
-				newTaskInput:"",
-				isLoggedIn:false
-			}
-		},
-	}
-</script>
+
 	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	<script src="../assets/js/jquery.dropotron.min.js"></script>
 	<script src="../assets/js/browser.min.js"></script>
