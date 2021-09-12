@@ -34,6 +34,11 @@
 			<p>Site dédié aux élèves de M.COUSTON</p>
 
 
+			<div v-if="isLoggedIn">
+
+
+
+
 
 
 			<div class="row aln-center">
@@ -201,6 +206,13 @@
 		</div>
 	<br>
 	<div class="header" data-netlify-identity-menu></div>
+
+
+</div>
+<div v-else>
+	Accès interdit!
+</div>
+
 	</section>
 
 	<button type="button" id="IDdubouton" title="Haut de page"class="button icon solid fa-caret-up">Je trouve ma classe</button>
@@ -208,6 +220,7 @@
 	<!-- Scripts -->
 	<!-- Scripts -->
 	<!-- script src="../assets/js/jquery.min.js"></script -->
+
 	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	<script src="../assets/js/jquery.dropotron.min.js"></script>
 	<script src="../assets/js/browser.min.js"></script>
