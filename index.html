@@ -6,48 +6,61 @@
 -->
 <html>
 	<head>
-		<title>Chapitre 2 : Les nombres (Partie 1)</title>
+		<title>Mathématiques</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../../../assets/css/main.css" />
-		<link rel="icon" href="../../../images/ico1.ico" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/ico1.ico" />
+		<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+		<meta name="google-site-verification" content="XQwouIrQa_xdNh3PcfT9jzy0uXDNe582RWV-6doThV0" />
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<section id="header">
+
+
+
+					<div id="jetrouvemaclasse" class="button icon solid fa-caret-down">Je trouve ma classe </div>
+					<script>
+					document.getElementById("jetrouvemaclasse").onclick = function() {jetrouvemaclasse()};
+
+					function jetrouvemaclasse() {
+					document.getElementById("jetrouvemaclasse").innerHTML = "Cherche dans Collège ou Lycée";
+					};
+					</script>
 					<div class="container">
 
 						<!-- Logo -->
-							<h1 id="logo">Chapitre 2</h1>
-							<h2>Les nombres (Partie 1)</h2>
+							<h1 id="logo">Mathématiques</h1>
+							<p>Site dédié aux élèves de M.COUSTON</p>
 						<a href = "https://www.atonservice26.com" hidden >atonservice26</a>
 
 						<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a class="icon solid fa-home" href="../../../"><span>Accueil</span></a></li>
-								<li>
-									<a href="../../" class="icon solid fa-angle-up"><span>Collège</span></a>
-									<ul class="test">
-										<li><a href="../">Sixième</a></li>
-										<li><a href="../../cinquieme">Cinquième</a></li>
-										<li><a href="../../quatrieme">Quatrième</a></li>
-										<li><!--a href="../../troisieme"-->Troisième (à venir)</a></li>
-									</ul>
-								</li>
-								<li><a class="icon solid fa-angle-double-up" href="#"><span>Lycée</span></a>
-									<ul>
-										<li><!--a href="../../../lycee/seconde"-->Seconde (à venir)</a></li>
-										<li><!--a href="../../../lycee/premiere"-->Première (à venir)</a></li>
-										<li><!--a href="../../../lycee/terminale"-->Terminale (à venir)</a></li>
-									</ul>
-								</li>
-								<li><a class="icon solid fa-laptop-code" href="../../../informatique"><span>Informatique</span></a></li>
-								<li><a class="icon solid fa-film" href="../../../videos"><span>Vidéos</span></a></li>
-							</ul>
-						</nav>
+							<nav id="nav">
+								<ul>
+									<li><a class="icon solid fa-home" href="#"><span>Accueil</span></a></li>
+									<li>
+										 <a href="college" class="icon solid fa-angle-up"><span>Collège</span></a>
+										<ul class="test">
+											<li><a href="college/sixieme">Sixième</a></li>
+											<li><a href="college/cinquieme">Cinquième</a></li>
+											<li><a href="college/quatrieme">Quatrième</a></li>
+											<li><!--a href="college/troisieme"-->Troisième (à venir)</a></li>
+										</ul>
+									</li>
+									<li><a class="icon solid fa-angle-double-up" href="#"><span>Lycée</span></a>
+										<ul>
+											<li><!--a href="lycee/seconde"-->Seconde (à venir)</a></li>
+											<li><!--a href="lycee/premiere"-->Première (à venir)</a></li>				
+											<li><!--a href="lycee/terminale"-->Terminale (à venir)</a></li>
+										</ul>
+									</li>
+									<li><a class="icon solid fa-laptop-code" href="informatique"><span>Informatique</span></a></li>
+									<li><a class="icon solid fa-film" href="videos"><span>Vidéos</span></a></li>
+								</ul>
+							</nav>
 						
 					</div>
 				</section>
@@ -63,11 +76,11 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="https://1drv.ms/b/s!Agm7Za4fSN6Sh8gKHtM6KnRArkNBcg?e=Md7Zkf" target="_blank" class="image featured"><img src="../../../images/lecon.jpg" alt="" />
+										<a href="#features" class="image featured"><img src="images/cahierstylo.jpg" alt="" />
 										<header>
-											<h3>La leçon</h3>
+											<h3>Retrouve ce que tu as étudié en classe !</h3>
 										</header>
-										Retrouve la leçon visionnable depuis le site ou aussi en téléchargement.</a>
+										Télécharge tous les documents que tu as utilisés en classe en format imprimable.</a>
 									</section>
 
 							</div>
@@ -75,11 +88,11 @@
 
 								<!-- Feature -->
 								<section>
-										<a href="exercices" class="image featured"><img src="../../../images/exercice.jpg" alt="" />
+										<a href="#features" class="image featured"><img src="images/exercicesligne.jpg" alt="" />
 										<header>
-											<h3>Les exercices</h3>
+											<h3>Entraine-toi grâce à des exercices interactifs !</h3>
 										</header>
-										Retrouve les exercices faits en classe ainsi que des exercices complémentaires et intéractifs.</a>
+										De nombreux exercices en ligne sont à disposition pour s'entrainer tout en s'amusant.</a>
 									</section>
 									
 
@@ -88,93 +101,173 @@
 
 								<!-- Feature -->
 									<section>
-										<a href="videos" class="image featured"><img src="../../../images/videohomer.jpg" alt="" />
+										<a href="#features" class="image featured"><img src="images/youtube.jpg" alt="" />
 										<header>
-											<h3>Les Vidéos</h3>
+											<h3>Quelque chose que tu n'as pas compris ?</h3>
 										</header>
-										De nombreuses vidéos d'explications t'aident à mieux comprendre.</a>
+										De nombreuses vidéos d'explications te permettront de comprendre plus facilement.</a>
 									</section>
 
 							</div>
+
+						</div>
+
+						<header>
+							<a href="#features"><h2><strong> La séance de cours en direct !</strong></h2></a>
+						</header>
+
+
+								<!-- Feature -->
+								<section>
+									<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/s9x81q9yakw0lzg6" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="100%" height="100%" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Fait avec Padlet"></a></div></div>
+								</section>
+
+
+						<div class="row aln-center">
 							<div class="col-12">
 								<ul class="actions">
-									<li><a href="#footer" class="button icon solid fa-angle-double-down"> Me contacter </a></li>
+									<li><a href="#content" class="button icon solid fa-angle-double-down"> Un peu de lecture </a></li>
 								</ul>
 							</div>
 						</div>
+
+
 					</div>
 				</section>
 
+			<!-- Banner -->
+				<section id="banner">
+					<div class="container">
+						<p><em>En Mathématiques, on ne comprend pas les choses, on s'y habitue.</em></p>
+					</div>
+				</section>
 
+			<!-- Main (retiré et stocké dans fichier main)-->
+			<section id="main">
+					<div class="container">
+						<div class="row">
 
-			<!-- Footer -->
-			<section id="footer">
-				<div class="container">
-					<header>
-						<h2>Une question, un devoir à me rendre ? </h2>
-					</header>
-					<div class="row">
-						<div class="col-6 col-12-medium">
-							<section>
-								<form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" >
-									<div class="row gtr-50">
-										<div class="col-6 col-12-small">
-											<label for="Pseudo">Pseudo</label>
-											<input name="Pseudo" placeholder="Lapin##" type="text" />
-										</div>
-										<div class="col-6 col-12-small">
-											<label for="Email">Email</label>
-											<input name="Email" placeholder="Pour une réponse" type="email" />
-										</div>
-										<div class="col-12">
-											<textarea name="Message" placeholder="Message"></textarea>
-										</div>
-										<div class="col-12">
-											<input type="file" name="myfile" id="myfile" placeholder="Upload File"/>
-										</div>
-										<div class="col-12">
-											<p id="antibot">
-												<input name="bot-field" placeholder="Ne rien écrire ici" /></label>
-											</p>
-											<button type="submit" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-						<div class="col-6 col-12-medium">
-							<section>
-								<p>Dans la mesure du possible, j'essaierai de répondre à vos questions dans les plus brefs délais.</p>
-								<div class="row">
+							<!-- Content -->
+								<div id="content" class="col-8 col-12-medium">
 
-									<ul class="icons">
-										<li class="icon solid fa-home">
-											Collège Olivier de Serres <br />
-											2 Pl. du College  <br />
-											26450 <br />
-											Cléon-d'Andran<br />
-											FRANCE
-										</li>
-										<li class="icon solid fa-phone">
-											04 75 90 13 32
-										</li>
-										<li class="icon solid fa-envelope">
-											<a href="#">couston.maths[at]gmail.com</a>
-										</li>
-									</ul>
+									<!-- Post -->
+										<article class="box post">
+											<header>
+												<h2><a href="#">C'est la rentrée !</a></h2>
+											</header>
+											<a href="#" class="image featured"><img src="images/rentree.jpg" alt="" /></a>
+											<h3>Belle rentrée 2022 à tous !</h3>
+											<p>	Pour cette rentrée 2022, je vous souhaite plein de réussite et de bonheur !
+												<br> J'espère que ce site vous permettra d'apprendre à être plus autonome et de trouver une place dans ce merveilleux monde des mathématiques.
+										</article>
+								</div>
+
+							<!-- Sidebar -->
+								<div id="sidebar" class="col-4 col-12-medium">
+
+									
+									<!-- Highlights -->
+										<section>
+											<ul class="divided">
+												<li>
+
+													<!-- Highlight -->
+														<article class="box excerpt">
+															<header>
+															<h3 class="date">Qui suis-je ?</h3>
+															</header>
+														
+															<p>Je suis Florian COUSTON, professeur certifié de Mathématiques, j'ai depuis tout petit toujours su que je voulais être professeur.
+															<br>Les mathématiques m'ont façonné jusque dans ma personnalité. Ma vie au quotidien n'est que pragmatisme et recherche de solutions à des petits problèmes.
+															<br>Je ne baisse jamais les bras face à un obstacle et ne suis satisfait que lorsqu'il est surmonté.
+															<br>J'invite toutes les personnes qui se demandent à quoi servent les maths au quotidien à en discuter avec moi.
+															<br>Je suis certain que cet avis peut changer très vite ! </p>
+															<ul class="actions">
+																<li><a href="#footer" class="button icon solid fa-angle-double-down">Me contacter</a></li>
+															</ul>
+														</article>
+
+												</li>
+												
+											</ul>
+										</section>
 
 								</div>
-							</section>
-						</div>
 
+						</div>
 					</div>
-				</div>
-				<div id="copyright" class="container">
-					<ul class="links">
-						<li>&copy; CoustonMaths. All rights reserved.</li><li>Design: M.COUSTON</li>
-					</ul>
-				</div>
-			</section>
+				</section>
+				
+
+				
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<header>
+							<h2>Une question, un devoir à me rendre ? </h2>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<section>
+									<form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true" >
+										<div class="row gtr-50">
+											<div class="col-6 col-12-small">
+												<label for="Pseudo">Pseudo</label>
+												<input name="Pseudo" placeholder="Lapin##" type="text" />
+											</div>
+											<div class="col-6 col-12-small">
+												<label for="Email">Email</label>
+												<input name="Email" placeholder="Pour une réponse" type="email" />
+											</div>
+											<div class="col-12">
+												<textarea name="Message" placeholder="Message"></textarea>
+											</div>
+											<div class="col-12">
+												<input type="file" name="myfile" id="myfile" placeholder="Upload File"/>
+											</div>											
+											<div class="col-12">
+											<p id="antibot">
+												<input name="bot-field" placeholder="Ne rien écrire ici" /></label>
+												</p>
+												<button type="submit" class="form-button-submit button icon solid fa-envelope">Envoyer</a>
+											</div>
+										</div>
+									</form>
+								</section>
+							</div>
+							<div class="col-6 col-12-medium">
+								<section>
+									<p>Dans la mesure du possible, j'essaierai de répondre à vos questions dans les plus brefs délais.</p>
+									<div class="row">
+
+										<ul class="icons">
+											<li class="icon solid fa-home">
+												Collège Olivier de Serres <br />
+												2 Pl. du College  <br />
+												26450 <br />
+												Cléon-d'Andran<br />
+												FRANCE
+											</li>
+											<li class="icon solid fa-phone">
+												04 75 90 13 32
+											</li>
+											<li class="icon solid fa-envelope">
+												<a href="#">couston.maths[at]gmail.com</a>
+											</li>
+										</ul>
+
+									</div>
+								</section>
+							</div>
+
+						</div>
+					</div>
+					<div id="copyright" class="container">
+						<ul class="links">
+							<li>&copy; CoustonMaths. All rights reserved.</li><li>Design: M.COUSTON</li>
+						</ul>
+					</div>
+				</section>
 
 		</div>
 
